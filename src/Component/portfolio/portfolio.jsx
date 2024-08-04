@@ -15,11 +15,11 @@ function Portfolio() {
             <div class="row m-auto g-5">
                 {images.map(function(image,index){
                     return(
-                        <div class="col-lg-4 col-sm-12 col-md-6" key={index}>
-                        <div class="inner position-relative">
+                        <div className="col-lg-4 col-sm-12 col-md-6" key={index}>
+                        <div className="inner position-relative">
                           <img src={image} alt="" class="img-fluid rounded-3"/>
-                          <div class="img-layer m-auto d-flex justify-content-center align-items-center position-absolute ">
-                            <i class="fa-solid fa-plus fa-8x" style={{color:"white"}}></i>
+                          <div className="img-layer m-auto d-flex justify-content-center align-items-center position-absolute ">
+                            <i className="fa-solid fa-plus fa-8x" style={{color:"white"}}></i>
                           </div>
                         </div>
                         </div>

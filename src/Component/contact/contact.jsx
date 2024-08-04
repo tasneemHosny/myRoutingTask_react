@@ -9,11 +9,11 @@ function Contact() {
                 <div className="line" style={{backgroundColor:"#2C3E50"}}></div>
             </div>
             <form className="mt-5">
-                <div class="form-floating mb-3">
+                <div className="form-floating mb-3">
                     <input type="text" class="form-control border-bottom border-1 rounded-3" id="floatingInput" placeholder="User Name"/>
                     <label htmlForfor="floatingInput">User Name</label>
                 </div>
-                <div class="form-floating mb-3">
+                <div className="form-floating mb-3">
                     <input type="number" class="form-control border-bottom border-1 rounded-3" id="floatingInput" placeholder="User Age"/>
                     <label htmlForfor="floatingInput">User Age</label>
                 </div>
@@ -21,7 +21,7 @@ function Contact() {
                     <input type="email" class="form-control border-bottom border-1 rounded-3" id="floatingInput" placeholder="User Email"/>
                     <label htmlForfor="floatingInput">User Email</label>
                 </div>
-                <div class="form-floating">
+                <div className="form-floating">
                     <input type="password" class="form-control border-bottom border-1 rounded-3" id="floatingPassword" placeholder="Password"/>
                     <label htmlForfor="floatingPassword">User Password</label>
                 </div>

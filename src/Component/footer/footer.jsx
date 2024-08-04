@@ -19,16 +19,16 @@ function Footer() {
                             <h2>AROUND THE WEB</h2>
                             <div className="social-icons d-flex justify-content-center align-items-center gap-2 my-3">
                                 <div className="rounded-circle border border-1 p-1 social-icon d-flex justify-content-center align-items-center">
-                                    <i class="fa-brands fa-facebook"  style={{color: '#ffffff'}}></i>
+                                    <i className="fa-brands fa-facebook"  style={{color: '#ffffff'}}></i>
                                 </div>
                                 <div className="rounded-circle border border-1 p-1 social-icon d-flex justify-content-center align-items-center">
-                                    <i class="fa-brands fa-twitter" style={{color: '#ffffff'}}></i>
+                                    <i className="fa-brands fa-twitter" style={{color: '#ffffff'}}></i>
                                 </div>
                                 <div className="rounded-circle border border-1 p-1 social-icon d-flex justify-content-center align-items-center">
-                                    <i class="fa-brands fa-linkedin-in" style={{color: '#ffffff'}}></i>
+                                    <i className="fa-brands fa-linkedin-in" style={{color: '#ffffff'}}></i>
                                 </div>
                                 <div className="rounded-circle border border-1 p-1 social-icon d-flex justify-content-center align-items-center">
-                                    <i class="fa-solid fa-globe" style={{color: '#ffffff'}}></i>
+                                    <i className="fa-solid fa-globe" style={{color: '#ffffff'}}></i>
                                 </div>
                             </div>
                         </div>
